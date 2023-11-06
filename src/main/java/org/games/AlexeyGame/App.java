@@ -34,7 +34,7 @@ public class App extends Application {
 	}
 
 	public static void main(String[] args) {
-		launch();
+	Application.launch(args);
 	}
 
 	// метод для Змейки
@@ -50,7 +50,7 @@ public class App extends Application {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
+		
 	}
 
 }
